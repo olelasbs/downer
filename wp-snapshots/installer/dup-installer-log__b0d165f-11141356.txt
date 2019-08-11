@@ -1,0 +1,622 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 02:22:16
+* VERSION: 1.3.18
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.4                                 |7.2.18
+OS__________________: WINNT                                 |WINNT
+CREATED_____________: 2019-08-11 14:13:56
+WP VERSION__________: 4.9.10
+DUP VERSION_________: 1.3.18
+DB__________________: 10.1.38
+DB TABLES___________: 35
+DB ROWS_____________: 8,370
+DB FILE SIZE________: 7.06MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.2.18 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.39 (Win64) PHP/7.2.18
+DOC ROOT____________: "F:/wamp/www/downer"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/downer/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20190811_downer_b0d165f9270e2be65524_20190811141356_archive.zip"
+SIZE________________: 40.57MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 6423
+    [filename] => F:\wamp\www\downer\20190811_downer_b0d165f9270e2be65524_20190811141356_archive.zip
+    [comment] => 
+)
+File timestamp set to Current: 2019-08-11 14:22:55
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 02:22:55 - RUNTIME: 39.2639 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 02:24:00
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.26 -- Build Server: 10.1.38
+FILE SIZE:	dup-database__b0d165f-11141356.sql (3.36MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER
+NEW SQL FILE:	[F:/wamp/www/downer/dup-installer/dup-installer-data__b0d165f-11141356.sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.26] is less than the build version [10.1.38].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:F:\wamp\www\downer\dup-installer\ctrls\ctrl.s2.dbinstall.php|LINE:386]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	316
+
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_gf_draft_submissions: (0)
+wp_gf_entry: (1)
+wp_gf_entry_meta: (6)
+wp_gf_entry_notes: (0)
+wp_gf_form: (1)
+wp_gf_form_meta: (1)
+wp_gf_form_revisions: (0)
+wp_gf_form_view: (0)
+wp_links: (0)
+wp_nf3_action_meta: (200)
+wp_nf3_actions: (8)
+wp_nf3_chunks: (0)
+wp_nf3_field_meta: (560)
+wp_nf3_fields: (12)
+wp_nf3_form_meta: (215)
+wp_nf3_forms: (2)
+wp_nf3_object_meta: (0)
+wp_nf3_objects: (0)
+wp_nf3_relationships: (0)
+wp_nf3_upgrades: (2)
+wp_options: (274)
+wp_postmeta: (978)
+wp_posts: (178)
+wp_term_relationships: (573)
+wp_term_taxonomy: (24)
+wp_termmeta: (0)
+wp_terms: (24)
+wp_trp_dictionary_fr_fr_ar: (262)
+wp_trp_gettext_ar: (2409)
+wp_trp_gettext_fr_fr: (2979)
+wp_usermeta: (33)
+wp_users: (1)
+Removed '26' cache/transient rows
+
+INSERT DATA RUNTIME: 35.2718 sec.
+STEP-2 COMPLETE @ 02:24:36 - RUNTIME: 35.3281 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 02:24:48
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "D-owner"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/xampp/htdocs/wp3/"
+path_new______________: "F:/wamp/www/downer/"
+siteurl_______________: "http://localhost/downer"
+url_old_______________: "http://localhost/wp3"
+url_new_______________: "http://localhost/downer"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "root"
+dbname________________: "downer_db"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp3/" ============================> "F:/wamp/www/downer/"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp3\/" ========================> "F:\/wamp\/www\/downer\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp3%2F" ==================> "F%3A%2Fwamp%2Fwww%2Fdowner%2F"
+	SEARCH  4:"C:\xampp\htdocs\wp3" =============================> "F:/wamp/www/downer"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp3" ==========================> "F:\/wamp\/www\/downer"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp3" =====================> "F%3A%2Fwamp%2Fwww%2Fdowner"
+	SEARCH  7:"//localhost/wp3" =================================> "//localhost/downer"
+	SEARCH  8:"\/\/localhost\/wp3" ==============================> "\/\/localhost\/downer"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp3" ===========================> "%2F%2Flocalhost%2Fdowner"
+	SEARCH 10:"https://localhost/downer" ========================> "http://localhost/downer"
+	SEARCH 11:"https:\/\/localhost\/downer" =====================> "http:\/\/localhost\/downer"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fdowner" ================> "http%3A%2F%2Flocalhost%2Fdowner"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_draft_submissions"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_entry"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp3/" ============================> "F:/wamp/www/downer/"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp3\/" ========================> "F:\/wamp\/www\/downer\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp3%2F" ==================> "F%3A%2Fwamp%2Fwww%2Fdowner%2F"
+	SEARCH  4:"C:\xampp\htdocs\wp3" =============================> "F:/wamp/www/downer"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp3" ==========================> "F:\/wamp\/www\/downer"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp3" =====================> "F%3A%2Fwamp%2Fwww%2Fdowner"
+	SEARCH  7:"//localhost/wp3" =================================> "//localhost/downer"
+	SEARCH  8:"\/\/localhost\/wp3" ==============================> "\/\/localhost\/downer"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp3" ===========================> "%2F%2Flocalhost%2Fdowner"
+	SEARCH 10:"https://localhost/downer" ========================> "http://localhost/downer"
+	SEARCH 11:"https:\/\/localhost\/downer" =====================> "http:\/\/localhost\/downer"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fdowner" ================> "http%3A%2F%2Flocalhost%2Fdowner"
+
+EVALUATE TABLE: "wp_gf_entry_meta"________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp3/" ============================> "F:/wamp/www/downer/"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp3\/" ========================> "F:\/wamp\/www\/downer\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp3%2F" ==================> "F%3A%2Fwamp%2Fwww%2Fdowner%2F"
+	SEARCH  4:"C:\xampp\htdocs\wp3" =============================> "F:/wamp/www/downer"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp3" ==========================> "F:\/wamp\/www\/downer"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp3" =====================> "F%3A%2Fwamp%2Fwww%2Fdowner"
+	SEARCH  7:"//localhost/wp3" =================================> "//localhost/downer"
+	SEARCH  8:"\/\/localhost\/wp3" ==============================> "\/\/localhost\/downer"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp3" ===========================> "%2F%2Flocalhost%2Fdowner"
+	SEARCH 10:"https://localhost/downer" ========================> "http://localhost/downer"
+	SEARCH 11:"https:\/\/localhost\/downer" =====================> "http:\/\/localhost\/downer"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fdowner" ================> "http%3A%2F%2Flocalhost%2Fdowner"
+
+EVALUATE TABLE: "wp_gf_entry_notes"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_form"______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp3/" ============================> "F:/wamp/www/downer/"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp3\/" ========================> "F:\/wamp\/www\/downer\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp3%2F" ==================> "F%3A%2Fwamp%2Fwww%2Fdowner%2F"
+	SEARCH  4:"C:\xampp\htdocs\wp3" =============================> "F:/wamp/www/downer"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp3" ==========================> "F:\/wamp\/www\/downer"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp3" =====================> "F%3A%2Fwamp%2Fwww%2Fdowner"
+	SEARCH  7:"//localhost/wp3" =================================> "//localhost/downer"
+	SEARCH  8:"\/\/localhost\/wp3" ==============================> "\/\/localhost\/downer"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp3" ===========================> "%2F%2Flocalhost%2Fdowner"
+	SEARCH 10:"https://localhost/downer" ========================> "http://localhost/downer"
+	SEARCH 11:"https:\/\/localhost\/downer" =====================> "http:\/\/localhost\/downer"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fdowner" ================> "http%3A%2F%2Flocalhost%2Fdowner"
+
+EVALUATE TABLE: "wp_gf_form_meta"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp3/" ============================> "F:/wamp/www/downer/"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp3\/" ========================> "F:\/wamp\/www\/downer\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp3%2F" ==================> "F%3A%2Fwamp%2Fwww%2Fdowner%2F"
+	SEARCH  4:"C:\xampp\htdocs\wp3" =============================> "F:/wamp/www/downer"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp3" ==========================> "F:\/wamp\/www\/downer"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp3" =====================> "F%3A%2Fwamp%2Fwww%2Fdowner"
+	SEARCH  7:"//localhost/wp3" =================================> "//localhost/downer"
+	SEARCH  8:"\/\/localhost\/wp3" ==============================> "\/\/localhost\/downer"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp3" ===========================> "%2F%2Flocalhost%2Fdowner"
+	SEARCH 10:"https://localhost/downer" ========================> "http://localhost/downer"
+	SEARCH 11:"https:\/\/localhost\/downer" =====================> "http:\/\/localhost\/downer"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fdowner" ================> "http%3A%2F%2Flocalhost%2Fdowner"
+
+EVALUATE TABLE: "wp_gf_form_revisions"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_form_view"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_action_meta"______________________________[ROWS:   200][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp3/" ============================> "F:/wamp/www/downer/"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp3\/" ========================> "F:\/wamp\/www\/downer\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp3%2F" ==================> "F%3A%2Fwamp%2Fwww%2Fdowner%2F"
+	SEARCH  4:"C:\xampp\htdocs\wp3" =============================> "F:/wamp/www/downer"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp3" ==========================> "F:\/wamp\/www\/downer"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp3" =====================> "F%3A%2Fwamp%2Fwww%2Fdowner"
+	SEARCH  7:"//localhost/wp3" =================================> "//localhost/downer"
+	SEARCH  8:"\/\/localhost\/wp3" ==============================> "\/\/localhost\/downer"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp3" ===========================> "%2F%2Flocalhost%2Fdowner"
+	SEARCH 10:"https://localhost/downer" ========================> "http://localhost/downer"
+	SEARCH 11:"https:\/\/localhost\/downer" =====================> "http:\/\/localhost\/downer"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fdowner" ================> "http%3A%2F%2Flocalhost%2Fdowner"
+
+EVALUATE TABLE: "wp_nf3_actions"__________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp3/" ============================> "F:/wamp/www/downer/"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp3\/" ========================> "F:\/wamp\/www\/downer\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp3%2F" ==================> "F%3A%2Fwamp%2Fwww%2Fdowner%2F"
+	SEARCH  4:"C:\xampp\htdocs\wp3" =============================> "F:/wamp/www/downer"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp3" ==========================> "F:\/wamp\/www\/downer"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp3" =====================> "F%3A%2Fwamp%2Fwww%2Fdowner"
+	SEARCH  7:"//localhost/wp3" =================================> "//localhost/downer"
+	SEARCH  8:"\/\/localhost\/wp3" ==============================> "\/\/localhost\/downer"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp3" ===========================> "%2F%2Flocalhost%2Fdowner"
+	SEARCH 10:"https://localhost/downer" ========================> "http://localhost/downer"
+	SEARCH 11:"https:\/\/localhost\/downer" =====================> "http:\/\/localhost\/downer"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fdowner" ================> "http%3A%2F%2Flocalhost%2Fdowner"
+
+EVALUATE TABLE: "wp_nf3_chunks"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_field_meta"_______________________________[ROWS:   560][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp3/" ============================> "F:/wamp/www/downer/"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp3\/" ========================> "F:\/wamp\/www\/downer\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp3%2F" ==================> "F%3A%2Fwamp%2Fwww%2Fdowner%2F"
+	SEARCH  4:"C:\xampp\htdocs\wp3" =============================> "F:/wamp/www/downer"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp3" ==========================> "F:\/wamp\/www\/downer"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp3" =====================> "F%3A%2Fwamp%2Fwww%2Fdowner"
+	SEARCH  7:"//localhost/wp3" =================================> "//localhost/downer"
+	SEARCH  8:"\/\/localhost\/wp3" ==============================> "\/\/localhost\/downer"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp3" ===========================> "%2F%2Flocalhost%2Fdowner"
+	SEARCH 10:"https://localhost/downer" ========================> "http://localhost/downer"
+	SEARCH 11:"https:\/\/localhost\/downer" =====================> "http:\/\/localhost\/downer"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fdowner" ================> "http%3A%2F%2Flocalhost%2Fdowner"
+
+EVALUATE TABLE: "wp_nf3_fields"___________________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp3/" ============================> "F:/wamp/www/downer/"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp3\/" ========================> "F:\/wamp\/www\/downer\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp3%2F" ==================> "F%3A%2Fwamp%2Fwww%2Fdowner%2F"
+	SEARCH  4:"C:\xampp\htdocs\wp3" =============================> "F:/wamp/www/downer"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp3" ==========================> "F:\/wamp\/www\/downer"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp3" =====================> "F%3A%2Fwamp%2Fwww%2Fdowner"
+	SEARCH  7:"//localhost/wp3" =================================> "//localhost/downer"
+	SEARCH  8:"\/\/localhost\/wp3" ==============================> "\/\/localhost\/downer"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp3" ===========================> "%2F%2Flocalhost%2Fdowner"
+	SEARCH 10:"https://localhost/downer" ========================> "http://localhost/downer"
+	SEARCH 11:"https:\/\/localhost\/downer" =====================> "http:\/\/localhost\/downer"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fdowner" ================> "http%3A%2F%2Flocalhost%2Fdowner"
+
+EVALUATE TABLE: "wp_nf3_form_meta"________________________________[ROWS:   215][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp3/" ============================> "F:/wamp/www/downer/"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp3\/" ========================> "F:\/wamp\/www\/downer\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp3%2F" ==================> "F%3A%2Fwamp%2Fwww%2Fdowner%2F"
+	SEARCH  4:"C:\xampp\htdocs\wp3" =============================> "F:/wamp/www/downer"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp3" ==========================> "F:\/wamp\/www\/downer"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp3" =====================> "F%3A%2Fwamp%2Fwww%2Fdowner"
+	SEARCH  7:"//localhost/wp3" =================================> "//localhost/downer"
+	SEARCH  8:"\/\/localhost\/wp3" ==============================> "\/\/localhost\/downer"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp3" ===========================> "%2F%2Flocalhost%2Fdowner"
+	SEARCH 10:"https://localhost/downer" ========================> "http://localhost/downer"
+	SEARCH 11:"https:\/\/localhost\/downer" =====================> "http:\/\/localhost\/downer"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fdowner" ================> "http%3A%2F%2Flocalhost%2Fdowner"
+
+EVALUATE TABLE: "wp_nf3_forms"____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp3/" ============================> "F:/wamp/www/downer/"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp3\/" ========================> "F:\/wamp\/www\/downer\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp3%2F" ==================> "F%3A%2Fwamp%2Fwww%2Fdowner%2F"
+	SEARCH  4:"C:\xampp\htdocs\wp3" =============================> "F:/wamp/www/downer"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp3" ==========================> "F:\/wamp\/www\/downer"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp3" =====================> "F%3A%2Fwamp%2Fwww%2Fdowner"
+	SEARCH  7:"//localhost/wp3" =================================> "//localhost/downer"
+	SEARCH  8:"\/\/localhost\/wp3" ==============================> "\/\/localhost\/downer"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp3" ===========================> "%2F%2Flocalhost%2Fdowner"
+	SEARCH 10:"https://localhost/downer" ========================> "http://localhost/downer"
+	SEARCH 11:"https:\/\/localhost\/downer" =====================> "http:\/\/localhost\/downer"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fdowner" ================> "http%3A%2F%2Flocalhost%2Fdowner"
+
+EVALUATE TABLE: "wp_nf3_object_meta"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_objects"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_relationships"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_upgrades"_________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp3/" ============================> "F:/wamp/www/downer/"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp3\/" ========================> "F:\/wamp\/www\/downer\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp3%2F" ==================> "F%3A%2Fwamp%2Fwww%2Fdowner%2F"
+	SEARCH  4:"C:\xampp\htdocs\wp3" =============================> "F:/wamp/www/downer"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp3" ==========================> "F:\/wamp\/www\/downer"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp3" =====================> "F%3A%2Fwamp%2Fwww%2Fdowner"
+	SEARCH  7:"//localhost/wp3" =================================> "//localhost/downer"
+	SEARCH  8:"\/\/localhost\/wp3" ==============================> "\/\/localhost\/downer"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp3" ===========================> "%2F%2Flocalhost%2Fdowner"
+	SEARCH 10:"https://localhost/downer" ========================> "http://localhost/downer"
+	SEARCH 11:"https:\/\/localhost\/downer" =====================> "http:\/\/localhost\/downer"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fdowner" ================> "http%3A%2F%2Flocalhost%2Fdowner"
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   274][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp3/" ============================> "F:/wamp/www/downer/"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp3\/" ========================> "F:\/wamp\/www\/downer\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp3%2F" ==================> "F%3A%2Fwamp%2Fwww%2Fdowner%2F"
+	SEARCH  4:"C:\xampp\htdocs\wp3" =============================> "F:/wamp/www/downer"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp3" ==========================> "F:\/wamp\/www\/downer"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp3" =====================> "F%3A%2Fwamp%2Fwww%2Fdowner"
+	SEARCH  7:"//localhost/wp3" =================================> "//localhost/downer"
+	SEARCH  8:"\/\/localhost\/wp3" ==============================> "\/\/localhost\/downer"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp3" ===========================> "%2F%2Flocalhost%2Fdowner"
+	SEARCH 10:"https://localhost/downer" ========================> "http://localhost/downer"
+	SEARCH 11:"https:\/\/localhost\/downer" =====================> "http:\/\/localhost\/downer"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fdowner" ================> "http%3A%2F%2Flocalhost%2Fdowner"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   978][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp3/" ============================> "F:/wamp/www/downer/"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp3\/" ========================> "F:\/wamp\/www\/downer\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp3%2F" ==================> "F%3A%2Fwamp%2Fwww%2Fdowner%2F"
+	SEARCH  4:"C:\xampp\htdocs\wp3" =============================> "F:/wamp/www/downer"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp3" ==========================> "F:\/wamp\/www\/downer"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp3" =====================> "F%3A%2Fwamp%2Fwww%2Fdowner"
+	SEARCH  7:"//localhost/wp3" =================================> "//localhost/downer"
+	SEARCH  8:"\/\/localhost\/wp3" ==============================> "\/\/localhost\/downer"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp3" ===========================> "%2F%2Flocalhost%2Fdowner"
+	SEARCH 10:"https://localhost/downer" ========================> "http://localhost/downer"
+	SEARCH 11:"https:\/\/localhost\/downer" =====================> "http:\/\/localhost\/downer"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fdowner" ================> "http%3A%2F%2Flocalhost%2Fdowner"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   178][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp3/" ============================> "F:/wamp/www/downer/"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp3\/" ========================> "F:\/wamp\/www\/downer\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp3%2F" ==================> "F%3A%2Fwamp%2Fwww%2Fdowner%2F"
+	SEARCH  4:"C:\xampp\htdocs\wp3" =============================> "F:/wamp/www/downer"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp3" ==========================> "F:\/wamp\/www\/downer"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp3" =====================> "F%3A%2Fwamp%2Fwww%2Fdowner"
+	SEARCH  7:"//localhost/wp3" =================================> "//localhost/downer"
+	SEARCH  8:"\/\/localhost\/wp3" ==============================> "\/\/localhost\/downer"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp3" ===========================> "%2F%2Flocalhost%2Fdowner"
+	SEARCH 10:"https://localhost/downer" ========================> "http://localhost/downer"
+	SEARCH 11:"https:\/\/localhost\/downer" =====================> "http:\/\/localhost\/downer"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fdowner" ================> "http%3A%2F%2Flocalhost%2Fdowner"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   573][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp3/" ============================> "F:/wamp/www/downer/"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp3\/" ========================> "F:\/wamp\/www\/downer\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp3%2F" ==================> "F%3A%2Fwamp%2Fwww%2Fdowner%2F"
+	SEARCH  4:"C:\xampp\htdocs\wp3" =============================> "F:/wamp/www/downer"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp3" ==========================> "F:\/wamp\/www\/downer"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp3" =====================> "F%3A%2Fwamp%2Fwww%2Fdowner"
+	SEARCH  7:"//localhost/wp3" =================================> "//localhost/downer"
+	SEARCH  8:"\/\/localhost\/wp3" ==============================> "\/\/localhost\/downer"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp3" ===========================> "%2F%2Flocalhost%2Fdowner"
+	SEARCH 10:"https://localhost/downer" ========================> "http://localhost/downer"
+	SEARCH 11:"https:\/\/localhost\/downer" =====================> "http:\/\/localhost\/downer"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fdowner" ================> "http%3A%2F%2Flocalhost%2Fdowner"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp3/" ============================> "F:/wamp/www/downer/"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp3\/" ========================> "F:\/wamp\/www\/downer\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp3%2F" ==================> "F%3A%2Fwamp%2Fwww%2Fdowner%2F"
+	SEARCH  4:"C:\xampp\htdocs\wp3" =============================> "F:/wamp/www/downer"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp3" ==========================> "F:\/wamp\/www\/downer"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp3" =====================> "F%3A%2Fwamp%2Fwww%2Fdowner"
+	SEARCH  7:"//localhost/wp3" =================================> "//localhost/downer"
+	SEARCH  8:"\/\/localhost\/wp3" ==============================> "\/\/localhost\/downer"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp3" ===========================> "%2F%2Flocalhost%2Fdowner"
+	SEARCH 10:"https://localhost/downer" ========================> "http://localhost/downer"
+	SEARCH 11:"https:\/\/localhost\/downer" =====================> "http:\/\/localhost\/downer"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fdowner" ================> "http%3A%2F%2Flocalhost%2Fdowner"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp3/" ============================> "F:/wamp/www/downer/"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp3\/" ========================> "F:\/wamp\/www\/downer\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp3%2F" ==================> "F%3A%2Fwamp%2Fwww%2Fdowner%2F"
+	SEARCH  4:"C:\xampp\htdocs\wp3" =============================> "F:/wamp/www/downer"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp3" ==========================> "F:\/wamp\/www\/downer"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp3" =====================> "F%3A%2Fwamp%2Fwww%2Fdowner"
+	SEARCH  7:"//localhost/wp3" =================================> "//localhost/downer"
+	SEARCH  8:"\/\/localhost\/wp3" ==============================> "\/\/localhost\/downer"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp3" ===========================> "%2F%2Flocalhost%2Fdowner"
+	SEARCH 10:"https://localhost/downer" ========================> "http://localhost/downer"
+	SEARCH 11:"https:\/\/localhost\/downer" =====================> "http:\/\/localhost\/downer"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fdowner" ================> "http%3A%2F%2Flocalhost%2Fdowner"
+
+EVALUATE TABLE: "wp_trp_dictionary_fr_fr_ar"______________________[ROWS:   262][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp3/" ============================> "F:/wamp/www/downer/"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp3\/" ========================> "F:\/wamp\/www\/downer\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp3%2F" ==================> "F%3A%2Fwamp%2Fwww%2Fdowner%2F"
+	SEARCH  4:"C:\xampp\htdocs\wp3" =============================> "F:/wamp/www/downer"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp3" ==========================> "F:\/wamp\/www\/downer"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp3" =====================> "F%3A%2Fwamp%2Fwww%2Fdowner"
+	SEARCH  7:"//localhost/wp3" =================================> "//localhost/downer"
+	SEARCH  8:"\/\/localhost\/wp3" ==============================> "\/\/localhost\/downer"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp3" ===========================> "%2F%2Flocalhost%2Fdowner"
+	SEARCH 10:"https://localhost/downer" ========================> "http://localhost/downer"
+	SEARCH 11:"https:\/\/localhost\/downer" =====================> "http:\/\/localhost\/downer"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fdowner" ================> "http%3A%2F%2Flocalhost%2Fdowner"
+
+EVALUATE TABLE: "wp_trp_gettext_ar"_______________________________[ROWS:  2409][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp3/" ============================> "F:/wamp/www/downer/"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp3\/" ========================> "F:\/wamp\/www\/downer\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp3%2F" ==================> "F%3A%2Fwamp%2Fwww%2Fdowner%2F"
+	SEARCH  4:"C:\xampp\htdocs\wp3" =============================> "F:/wamp/www/downer"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp3" ==========================> "F:\/wamp\/www\/downer"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp3" =====================> "F%3A%2Fwamp%2Fwww%2Fdowner"
+	SEARCH  7:"//localhost/wp3" =================================> "//localhost/downer"
+	SEARCH  8:"\/\/localhost\/wp3" ==============================> "\/\/localhost\/downer"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp3" ===========================> "%2F%2Flocalhost%2Fdowner"
+	SEARCH 10:"https://localhost/downer" ========================> "http://localhost/downer"
+	SEARCH 11:"https:\/\/localhost\/downer" =====================> "http:\/\/localhost\/downer"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fdowner" ================> "http%3A%2F%2Flocalhost%2Fdowner"
+
+EVALUATE TABLE: "wp_trp_gettext_fr_fr"____________________________[ROWS:  2979][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp3/" ============================> "F:/wamp/www/downer/"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp3\/" ========================> "F:\/wamp\/www\/downer\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp3%2F" ==================> "F%3A%2Fwamp%2Fwww%2Fdowner%2F"
+	SEARCH  4:"C:\xampp\htdocs\wp3" =============================> "F:/wamp/www/downer"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp3" ==========================> "F:\/wamp\/www\/downer"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp3" =====================> "F%3A%2Fwamp%2Fwww%2Fdowner"
+	SEARCH  7:"//localhost/wp3" =================================> "//localhost/downer"
+	SEARCH  8:"\/\/localhost\/wp3" ==============================> "\/\/localhost\/downer"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp3" ===========================> "%2F%2Flocalhost%2Fdowner"
+	SEARCH 10:"https://localhost/downer" ========================> "http://localhost/downer"
+	SEARCH 11:"https:\/\/localhost\/downer" =====================> "http:\/\/localhost\/downer"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fdowner" ================> "http%3A%2F%2Flocalhost%2Fdowner"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    33][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp3/" ============================> "F:/wamp/www/downer/"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp3\/" ========================> "F:\/wamp\/www\/downer\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp3%2F" ==================> "F%3A%2Fwamp%2Fwww%2Fdowner%2F"
+	SEARCH  4:"C:\xampp\htdocs\wp3" =============================> "F:/wamp/www/downer"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp3" ==========================> "F:\/wamp\/www\/downer"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp3" =====================> "F%3A%2Fwamp%2Fwww%2Fdowner"
+	SEARCH  7:"//localhost/wp3" =================================> "//localhost/downer"
+	SEARCH  8:"\/\/localhost\/wp3" ==============================> "\/\/localhost\/downer"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp3" ===========================> "%2F%2Flocalhost%2Fdowner"
+	SEARCH 10:"https://localhost/downer" ========================> "http://localhost/downer"
+	SEARCH 11:"https:\/\/localhost\/downer" =====================> "http:\/\/localhost\/downer"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fdowner" ================> "http%3A%2F%2Flocalhost%2Fdowner"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp3/" ============================> "F:/wamp/www/downer/"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp3\/" ========================> "F:\/wamp\/www\/downer\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp3%2F" ==================> "F%3A%2Fwamp%2Fwww%2Fdowner%2F"
+	SEARCH  4:"C:\xampp\htdocs\wp3" =============================> "F:/wamp/www/downer"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp3" ==========================> "F:\/wamp\/www\/downer"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp3" =====================> "F%3A%2Fwamp%2Fwww%2Fdowner"
+	SEARCH  7:"//localhost/wp3" =================================> "//localhost/downer"
+	SEARCH  8:"\/\/localhost\/wp3" ==============================> "\/\/localhost\/downer"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp3" ===========================> "%2F%2Flocalhost%2Fdowner"
+	SEARCH 10:"https://localhost/downer" ========================> "http://localhost/downer"
+	SEARCH 11:"https:\/\/localhost\/downer" =====================> "http:\/\/localhost\/downer"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fdowner" ================> "http%3A%2F%2Flocalhost%2Fdowner"
+--------------------------------------
+SCANNED:	Tables:35 	|	 Rows:8744 	|	 Cells:45661 
+UPDATED:	Tables:5 	|	 Rows:222 	|	 Cells:241 
+ERRORS:		0 
+RUNTIME:	2.126100 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""downer_db""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 02:24:50 - RUNTIME: 2.4775 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
